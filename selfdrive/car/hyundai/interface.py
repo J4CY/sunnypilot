@@ -70,7 +70,6 @@ class CarInterface(CarInterfaceBase):
       tire_stiffness_factor = 0.65
       ret.lateralTuning.pid.kiBP, ret.lateralTuning.pid.kpBP = [[0.], [0.]]
       ret.lateralTuning.pid.kpV, ret.lateralTuning.pid.kiV = [[0.25], [0.05]]
-
       #MAX_TORQUE = 3.5
       #FRICTION = 0.01
 
